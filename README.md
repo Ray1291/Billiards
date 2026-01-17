@@ -14,14 +14,15 @@ And contains one third party single header file library
 
 # Features:
 
+- **Configurable Game Parameters (`pool.h`)**:  
+  You can customize ball size, number of balls, friction, and other gameplay settings through a single header file.
+
 - **Custom Dynamic Array (`arraylist.c`)**:  
   Implements a lightweight, resizable array used to manage all balls on the table. This allows fast insertion, deletion, and random access, making **collision detection and physics calculations more efficient** during gameplay.
 
-- **Configurable Game Parameters (`pool.h`)**:  
-  Users can customize ball size, number of balls, friction, and other gameplay settings through a single header file.
+Then you can:
 
 # Installation:
-
 
 Before compiling, make sure the following libraries are installed on your system:
 
@@ -48,7 +49,8 @@ Run it
 ` ./run.out`
 
 # Usage
-Upon running the program, a window will pop up with the balls setup ready for play. Just click and drag on the cue ball to fire it off.
+Upon running the program, a window will pop up with the balls setup ready for play. 
+Just click on the cue ball, pull back in any direction and release to fire
 
 # Contributing 
 Feel free to submit issues or pull requests. Contributions to improve the code or add features are welcome!
